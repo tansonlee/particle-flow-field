@@ -16,19 +16,19 @@ class Particle {
 		this.acc.mult(0);
 
 		// wrap around
-		if (this.pos.x > width) {
+		if (this.pos.x > width + 3) {
 			this.pos.x = 0;
 			this.prevPos = this.pos.copy();
 		}
-		if (this.pos.x < 0) {
+		if (this.pos.x < 0 - 3) {
 			this.pos.x = width;
 			this.prevPos = this.pos.copy();
 		}
-		if (this.pos.y > height) {
+		if (this.pos.y > height + 3) {
 			this.pos.y = 0;
 			this.prevPos = this.pos.copy();
 		}
-		if (this.pos.y < 0) {
+		if (this.pos.y < 0 - 3) {
 			this.pos.y = height;
 			this.prevPos = this.pos.copy();
 		}

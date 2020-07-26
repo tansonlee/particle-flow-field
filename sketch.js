@@ -8,7 +8,7 @@ function setup() {
 	background(40);
 	cols = floor(width / w);
 	rows = floor(height / w);
-	for (let i = 0; i < 500; i++) {
+	for (let i = 0; i < 700; i++) {
 		const p = new Particle();
 		particles.push(p);
 	}

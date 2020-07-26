@@ -1,4 +1,4 @@
-# particle-flow-field
+# Particle Flow Field
 
 ### A field of flowing particles
 
